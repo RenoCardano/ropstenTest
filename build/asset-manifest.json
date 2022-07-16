@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DappVoting/static/css/main.46f216f7.css",
+    "main.js": "/DappVoting/static/js/main.5515fcbb.js",
+    "index.html": "/DappVoting/index.html",
+    "main.46f216f7.css.map": "/DappVoting/static/css/main.46f216f7.css.map",
+    "main.5515fcbb.js.map": "/DappVoting/static/js/main.5515fcbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46f216f7.css",
+    "static/js/main.5515fcbb.js"
+  ]
+}
