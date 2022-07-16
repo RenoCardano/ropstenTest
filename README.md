@@ -1,15 +1,26 @@
-# React client
+# Welcome to my Dapp Voting projetc
 
-This project is bootstraped with [Create React App](https://create-react-app.dev). It is unopinionated with only `web3.js` as an added dependency, so nothing stands in your way.
+This website allows to register voters, to manage workflow status, to make submit proposals. Subsequently, registered voters can vote for any proposal once. The votes ccan be tallied and the result is shown immediately in a efficient way powered by the blockchain Eth.
+Here a short presentation: https://www.loom.com/share/97a5870ca59040d788c2f7df4803911e
+It is also accessible for testing purpose at this address: https://renocardano.github.io/ropstenTest/
 
-## Getting started
+![image](https://user-images.githubusercontent.com/68705151/179346146-c89f9220-342c-44ea-95b5-f2180ed6f17a.png)
 
-Run `npm start` to start the dev server.
+This decentralized application runs Ropsten network, the smart contract is called voting.sol
 
-See all [available scripts](https://create-react-app.dev/docs/available-scripts).
+## Getting started with dependencies.
+To make this project work please intall:
+npm install => truffle unbox react
+To install truffle  => npm install -g truffle
+To install ganache  => npm install -g ganache-cli
+Set up a truffle-config.js
+npm install --prefix . @truffle/hdwallet-provider
+npm install --prefix . --save dotenv
+To deploy MNEMONIC
+To an other terminal => truffle migrate or truffle migrate --network ropsten for a testnest
+To an other terminal => npm run start
+To run the project tests suite, do the following
+// Run ganache localy ganache-cli -h 127.0.0.1
+// Run migrations truffle migrate or truffle migrate -reset
+// Run npm run deploy to deploy
 
-## Note on `react-scripts` version
-
-The installed version of `react-scripts` is 4.x instead of the latest 5.x, which uses Webpack 5. This is because Webpack 5 no longer auto-polyfills Node.js core modules, which `web3.js` depends on.
-
-If you don't want to use `react-scripts` at 4.x, alternative solutions include [`eject`](https://create-react-app.dev/docs/available-scripts/#npm-run-eject) and [`react-app-rewired`](https://github.com/timarney/react-app-rewired) (See [instruction](https://github.com/ChainSafe/web3.js#web3-and-create-react-app)).
