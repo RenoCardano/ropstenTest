@@ -1,6 +1,6 @@
-# Welcome to my Dapp Voting projetc
+# Welcome to my Dapp Voting project
 
-This website allows to register voters, to manage workflow status, to make submit proposals. Subsequently, registered voters can vote for any proposal once. The votes ccan be tallied and the result is shown immediately in a efficient way powered by the blockchain Eth.
+This website allows to register voters, to manage workflow status, to make submit proposals. Subsequently, registered voters can vote for any proposal once. The votes ccan be tallied and the result is shown immediately in a efficient way powered by the blockchain.
 Here a short presentation: https://www.loom.com/share/97a5870ca59040d788c2f7df4803911e
 It is also accessible for testing purpose at this address: https://renocardano.github.io/ropstenTest/
 
