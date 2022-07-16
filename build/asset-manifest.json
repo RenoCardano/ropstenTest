@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/DappVoting/static/css/main.46f216f7.css",
-    "main.js": "/DappVoting/static/js/main.5515fcbb.js",
-    "index.html": "/DappVoting/index.html",
-    "main.46f216f7.css.map": "/DappVoting/static/css/main.46f216f7.css.map",
-    "main.5515fcbb.js.map": "/DappVoting/static/js/main.5515fcbb.js.map"
+    "main.css": "/ropstenTest/static/css/main.46f216f7.css",
+    "main.js": "/ropstenTest/static/js/main.02830a15.js",
+    "index.html": "/ropstenTest/index.html",
+    "main.46f216f7.css.map": "/ropstenTest/static/css/main.46f216f7.css.map",
+    "main.02830a15.js.map": "/ropstenTest/static/js/main.02830a15.js.map"
   },
   "entrypoints": [
     "static/css/main.46f216f7.css",
-    "static/js/main.5515fcbb.js"
+    "static/js/main.02830a15.js"
   ]
 }
