@@ -1,5 +1,5 @@
 {
-  "homepage": "https://RenoCardano.github.io/ropstenTest/",
+  "homepage": "https://RenoCardano.github.io/ropstenTest/build/index.html",
   "name": "truffle-client",
   "version": "0.1.0",
   "private": true,
